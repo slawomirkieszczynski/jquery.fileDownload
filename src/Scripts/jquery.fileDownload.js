@@ -264,7 +264,7 @@ $.extend({
 
             } else if (isOtherMobileBrowser) {
 
-                window.location(fileUrl);
+                window.location.href = fileUrl;
 
             } else {
 
